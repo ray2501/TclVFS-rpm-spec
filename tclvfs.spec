@@ -36,12 +36,13 @@ zip, ftp, tar, http, webdav, namespace, url).
 make 
 
 %install
-make DESTDIR=%{buildroot} pkglibdir=%{directory}/%{_lib}/tcl/vfs%{version} install
+make DESTDIR=%{buildroot} pkglibdir=%{tcl_archdir}/vfs%{version} install
 
 %clean
 rm -rf %buildroot
 
 %files
 %defattr(-,root,root)
+%{tcl_archdir}
 %{directory}/%{_lib}/tcl
 %{directory}/share/man/mann
