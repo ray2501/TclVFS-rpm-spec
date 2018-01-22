@@ -12,10 +12,10 @@ exec >@stdout 2>@stderr {*}$var
 
 file delete tclvfs.tar.gz
 
-set var [list mv tclvfs-b5e463e712 tclvfs-tclvfs]
+set var [list mv tclvfs-b5e463e712 tclvfs]
 exec >@stdout 2>@stderr {*}$var
 
-set var [list tar czvf tclvfs-tclvfs.tar.gz tclvfs-tclvfs]
+set var [list tar czvf tclvfs-tclvfs.tar.gz tclvfs]
 exec >@stdout 2>@stderr {*}$var
 
 if {[file exists build]} {
