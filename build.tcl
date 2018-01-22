@@ -30,5 +30,5 @@ set buildit [list rpmbuild --target $arch --define "_topdir [pwd]/build" -bb tcl
 exec >@stdout 2>@stderr {*}$buildit
 
 # Remove our source code
-file delete -force $base
+file delete -force tclvfs
 file delete $base.tar.gz
