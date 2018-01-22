@@ -10,7 +10,7 @@ License:       BSD License
 Group:         Development/Libraries/Tcl
 Source:        tclvfs-tclvfs.tar.gz
 Patch0:        %{name}.doc.patch
-URL:           https://sourceforge.net/projects/tclvfs/
+URL:           https://core.tcl.tk/tclvfs/home
 Buildrequires: autoconf
 Buildrequires: tcl-devel >= 8.4
 Requires: tcl >= 8.4
