@@ -6,7 +6,7 @@ Name:          tclvfs
 Summary:       Tcl Virtual Filesystems extension
 Version:       1.4.2_20171223
 Release:       0
-License:       BSD License
+License:       TCL
 Group:         Development/Libraries/Tcl
 Source:        tclvfs-tclvfs.tar.gz
 Patch0:        %{name}.doc.patch
