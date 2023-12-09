@@ -1,21 +1,19 @@
-diff -u tclvfs-old/doc/vfslib.n tclvfs/doc/vfslib.n
---- tclvfs-old/doc/vfslib.n	2003-07-16 01:42:35.000000000 +0800
-+++ tclvfs/doc/vfslib.n	2017-04-16 23:31:20.518403370 +0800
+--- tclvfs/doc/vfslib.n.org	2023-12-09 20:52:35.019316238 +0800
++++ tclvfs/doc/vfslib.n	2023-12-09 20:52:43.351327702 +0800
 @@ -2,7 +2,6 @@
  '\" Copyright (c) 2001, Vince Darley
- '\" 
- '\" 
+ '\"
+ '\"
 -.so man.macros
  .TH vfslib n 1.0 Vfslib "Tcl-only Virtual File Systems"
  .BS
  '\" Note:  do not modify the .sh NAME line immediately below!
-diff -u tclvfs-old/doc/vfs.n tclvfs/doc/vfs.n
---- tclvfs-old/doc/vfs.n	2008-12-03 10:30:42.000000000 +0800
-+++ tclvfs/doc/vfs.n	2017-04-16 23:31:28.322409420 +0800
+--- tclvfs/doc/vfs.n.org	2023-12-09 20:53:00.971351933 +0800
++++ tclvfs/doc/vfs.n	2023-12-09 20:53:08.183361859 +0800
 @@ -2,7 +2,6 @@
  '\" Copyright (c) 2001-2003, Vince Darley
- '\" 
- '\" 
+ '\"
+ '\"
 -.so man.macros
  .TH vfs n 1.4 Vfs "Tcl-only Virtual File Systems"
  .BS
