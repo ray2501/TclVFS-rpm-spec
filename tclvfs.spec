@@ -24,7 +24,7 @@ zip, ftp, tar, http, webdav, namespace, url).
 
 %prep
 %setup -q -n %{name}
-%patch0 -p1
+%patch 0 -p1
 
 %build
 ./configure \
