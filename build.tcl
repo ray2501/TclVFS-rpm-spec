@@ -4,7 +4,7 @@ set arch "x86_64"
 set base "tclvfs-tclvfs"
 set fileurl "https://core.tcl-lang.org/tclvfs/tarball/8cdab08997/tclvfs-8cdab08997.tar.gz"
 
-set var [list wget $fileurl -O tclvfs.tar.gz]
+set var [list wget2 $fileurl -O tclvfs.tar.gz]
 exec >@stdout 2>@stderr {*}$var
 
 set var [list tar xzvf tclvfs.tar.gz]
