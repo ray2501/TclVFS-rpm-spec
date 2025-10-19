@@ -2,7 +2,7 @@
 
 set arch "x86_64"
 set base "tclvfs-tclvfs"
-set fileurl "https://core.tcl-lang.org/tclvfs/tarball/8cdab08997/tclvfs-8cdab08997.tar.gz"
+set fileurl "https://core.tcl-lang.org/tclvfs/tarball/7fd65a0dda/tclvfs-7fd65a0dda.tar.gz"
 
 set var [list wget2 $fileurl -O tclvfs.tar.gz]
 exec >@stdout 2>@stderr {*}$var
@@ -12,7 +12,7 @@ exec >@stdout 2>@stderr {*}$var
 
 file delete tclvfs.tar.gz
 
-set var [list mv tclvfs-8cdab08997 tclvfs]
+set var [list mv tclvfs-7fd65a0dda tclvfs]
 exec >@stdout 2>@stderr {*}$var
 
 set var [list tar czvf tclvfs-tclvfs.tar.gz tclvfs]
