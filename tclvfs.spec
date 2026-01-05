@@ -44,4 +44,4 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %{tcl_archdir}
-%{directory}/share/man/mann
+%{directory}/share/man/mann/vfs*
